@@ -1,5 +1,5 @@
 import React from "react";
-import 'setimmediate';
+import 'setImmediate';
 
 const widgetMap = {
   boolean: {
@@ -562,7 +562,9 @@ export function setState(instance, state, callback) {
     instance.setState(state, callback);
   } else {
     instance.setState(state);
-    setImmediate(callback);
+    // todo:有一个引用错误
+    //setImmediate(callback);
+      setTimeout(callback);
   }
 }
 

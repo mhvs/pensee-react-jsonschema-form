@@ -21,6 +21,7 @@ A [live playground](https://mozilla-services.github.io/react-jsonschema-form/) i
         - [Form error event handler](#form-error-event-handler)
         - [Form data changes](#form-data-changes)
         - [Form field blur events](#form-field-blur-events)
+        - [Form field focus events](#form-field-focus-events)
   - [Form customization](#form-customization)
      - [The uiSchema object](#the-uischema-object)
      - [Alternative widgets](#alternative-widgets)
