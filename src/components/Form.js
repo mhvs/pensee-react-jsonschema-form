@@ -154,6 +154,7 @@ export default class Form extends Component {
       FieldTemplate: this.props.FieldTemplate,
       definitions: this.props.schema.definitions || {},
       formContext: this.props.formContext || {},
+      formData: this.state.formData || {}
     };
   }
 

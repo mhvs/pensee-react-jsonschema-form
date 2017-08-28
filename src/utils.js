@@ -1,5 +1,5 @@
 import React from "react";
-import "setimmediate";
+import 'setimmediate';
 
 const widgetMap = {
   boolean: {
